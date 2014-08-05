@@ -1,5 +1,6 @@
 {
     "name": "silverstripe/newrelic",
+    "type": "silverstripe-module",
     "description": "NewRelic support for SilverStripe",
     "license": "BSD-3-Clause",
     "authors": [
