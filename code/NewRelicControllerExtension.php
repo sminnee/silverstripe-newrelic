@@ -25,6 +25,5 @@ class NewRelicControllerExtension extends Extension {
 
 // Set-up calls
 if (extension_loaded('newrelic')) {
-	newrelic_add_custom_tracer("Director::direct");
-	newrelic_add_custom_tracer("SSViewer::process");
+	newrelic_add_custom_tracer("Director::direct,SSViewer::process");
 }
