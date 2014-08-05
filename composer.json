@@ -1,0 +1,14 @@
+{
+    "name": "silverstripe/newrelic",
+    "description": "NewRelic support for SilverStripe",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sam Minnee",
+            "email": "sam@silverstripe.com"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "3.*"
+    }
+}
